@@ -16,9 +16,12 @@ Admittedly, it's a modest project, not one to boast about extensively. But darn 
 Now, here's where I must confess a deviation from my original rules: I peeked at Stack Overflow to acquaint myself with the pynput module. This module proved invaluable for controlling and monitoring the keyboard, and I did delve into its source code to grasp its intricacies. Exceptions, after all, can be enlightening!
 
 # What's in the game?
-1. Nice trails that become wider the faster you go:
+1. Nice trails that become wider the faster you go.
+
 ![nice_trails.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/nice_trails.gif)
+
 2. Unlimited speed!
+
 ![accumulate_speed.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/accumulate_speed.gif)
 
 # How to run the game?
