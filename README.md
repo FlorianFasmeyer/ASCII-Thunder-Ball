@@ -4,6 +4,8 @@ The Thunder Ball is a command prompt game that puts you in control of a bouncing
 
 I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. While basking in the warmth of a chimney, sipping hot chocolate, and sharing the moment with my ageing father as we tuned into the news, I dedicated ~3 hours to creating this 277-line of code gem. Later, I invested additional time refining the code. Developing a game engine might not be rocket science, but caution is advised before diving in headfirst!
 
+![nice_bounces.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/nice_bounces.gif)
+
 The Thunder Ball emerged as an unintended outcome of my game engine, built entirely from scratch. I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. This coding venture had two objectives:
 
 1. To test the challenges of constructing a 2D game engine with collision and physics2.
