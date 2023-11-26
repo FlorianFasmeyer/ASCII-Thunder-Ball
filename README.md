@@ -2,6 +2,8 @@
 
 The Thunder Ball is a command prompt game that puts you in control of a bouncing ball, letting you playfully make it zip around your terminal at high speeds. How delightful! :D
 
+Note: The flickering you observe in the images results from the image recording software ScreenToGif (a tool I highly recommend). In actual practice, the experience will be significantly smoother.
+
 I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. While basking in the warmth of a chimney, sipping hot chocolate, and sharing the moment with my ageing father as we tuned into the news, I dedicated ~3 hours to creating this 277-line of code gem. Later, I invested additional time refining the code. Developing a game engine might not be rocket science, but caution is advised before diving in headfirst!
 
 ![nice_bounces.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/nice_bounces.gif)
