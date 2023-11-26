@@ -29,4 +29,10 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 ![accumulate_speed.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/accumulate_speed.gif)
 
 # How to run the game?
+1. Download it
+
+![download_it.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/download_it.gif)
+
+2. Run it
+   
 ![Download the fine and write "python ASCII_thunder_ball.py"](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/easy_to_run.gif)
