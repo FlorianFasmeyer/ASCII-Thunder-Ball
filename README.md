@@ -14,3 +14,6 @@ This engine seamlessly handles high-speed objects, ensuring they never mysteriou
 Admittedly, it's a modest project, not one to boast about extensively. But darn it, I like it!
 
 Now, here's where I must confess a deviation from my original rules: I peeked at Stack Overflow to acquaint myself with the pynput module. This module proved invaluable for controlling and monitoring the keyboard, and I did delve into its source code to grasp its intricacies. Exceptions, after all, can be enlightening!
+
+# How to run the game?
+![Download the fine and write "python ASCII_thunder_ball.py"](easy_to_run.gif)
