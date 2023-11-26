@@ -1,7 +1,7 @@
 # ASCII-Thunder-Ball
 The thunder ball is a command prompt game in which you control a bouncing ball. You can toy around and make it bounce around your prompt at high speeds... that's that! :D
 
-I created this game in 2022 after a long skiing day. By the warmth of a chimney while drinking hot chocolate with my old father.
+I created this game in 2022 after a long skiing day. By the warmth of a chimney while drinking hot chocolate, sitting next to my old father, watching the news. It took about 2 to 4 hours to create it and I took some time later to clean it up. Creating a game engine ain't that hard, but you better think before you act!
 
 The Thunder Ball was created as a byproduct of my game engine, created from scratch. I followed the strict rule of not using the internet and limited myself to coding with Microsoft's Code Block. Downloading modules was allowed. This code was made with two purposes: 
 
