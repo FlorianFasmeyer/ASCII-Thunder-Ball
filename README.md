@@ -33,6 +33,8 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 
 ![download_it.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/download_it.gif)
 
-2. Run it
+2. Install pynput in your favourite virtual environment: ´Install pip install pynput´
+
+3. Run it
    
 ![Download the fine and write "python ASCII_thunder_ball.py"](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/easy_to_run.gif)
