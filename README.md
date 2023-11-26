@@ -2,9 +2,9 @@
 
 The Thunder Ball is a command prompt game that puts you in control of a bouncing ball, letting you playfully make it zip around your terminal at high speeds. How delightful! :D
 
-I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. While basking in the warmth of a chimney, sipping hot chocolate, and sharing the moment with my aging father as we tuned into the news, I dedicated 2 to 4 hours to create this little gem. Later, I invested additional time refining the code. Developing a game engine might not be rocket science, but caution is advised before diving in headfirst!
+I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. While basking in the warmth of a chimney, sipping hot chocolate, and sharing the moment with my aging father as we tuned into the news, I dedicated 2 to 4 hours to creating this little gem. Later, I invested additional time refining the code. Developing a game engine might not be rocket science, but caution is advised before diving in headfirst!
 
-The Thunder Ball emerged as an unintended outcome of my game engine, built entirely from scratch. I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. This coding venture had dual objectives:
+The Thunder Ball emerged as an unintended outcome of my game engine, built entirely from scratch. I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. This coding venture had two objectives:
 
 1. To test the challenges of constructing a 2D game engine with collision and physics2.
 2. To improve my coding skills and code without bugs – developing those Pythonman fingers! >:D
