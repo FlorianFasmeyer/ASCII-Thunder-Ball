@@ -29,7 +29,7 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 ![accumulate_speed.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/accumulate_speed.gif)
 
 3. Procedural terrain generation
-4. Snow! You can enable it by removing the comment at line 66: ´# snow(grid)´ -> ´snow(grid)´
+4. Snow! You can enable it by uncommenting the 66th line: ´# snow(grid)´ -> ´snow(grid)´
 
 # How to run the game?
 1. Download it
