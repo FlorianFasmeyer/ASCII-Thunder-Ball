@@ -11,9 +11,9 @@ The Thunder Ball emerged as an unintended outcome of my game engine, built entir
 1. To test the challenges of constructing a 2D game engine with collision, 2d physics and basic graphics from *absolutely nothing*
 2. To improve my coding skills and develop those Pythonman fingers! >:D
 
-This engine seamlessly handles high-speed objects, ensuring they never mysteriously phase through the game world. The only limitations on speed arise from friction variables. You can push the limits by removing all friction and witnessing how your computer copes with the unstoppable force of the THUNDER BALL!
+This engine seamlessly handles high-speed objects, ensuring they never mysteriously phase through the game world. The only limitations on speed arise from the air friction variables. You can remove all friction in code to witness the unstoppable force of the THUNDER BALL!
 
-Admittedly, it's a modest project, not one to boast about extensively. But darn it, I like it!
+Admittedly, it's a modest project, not one to boast about extensively. But darn, I like it!
 
 Now, here's where I must confess a deviation from my original rules: I peeked at Stack Overflow to acquaint myself with the pynput module. This module proved invaluable for controlling and monitoring the keyboard, and I did delve into its source code to grasp its intricacies. Exceptions, after all, can be enlightening!
 
