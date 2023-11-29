@@ -9,7 +9,7 @@ I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. W
 The Thunder Ball emerged as an unintended outcome of my game engine, built entirely from scratch. I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. This coding venture had two objectives:
 
 1. To test the challenges of constructing a 2D game engine with collision, 2d physics and basic graphics from *absolutely nothing*
-2. To improve my coding skills and code without bugs – developing those Pythonman fingers! >:D
+2. To improve my coding skills and develop those Pythonman fingers! >:D
 
 This engine seamlessly handles high-speed objects, ensuring they never mysteriously phase through the game world. The only limitations on speed arise from friction variables. You can push the limits by removing all friction and witnessing how your computer copes with the unstoppable force of the THUNDER BALL!
 
