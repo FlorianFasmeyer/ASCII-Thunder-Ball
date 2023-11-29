@@ -182,8 +182,8 @@ def move_player(grid):
     total_moves = move_x + move_y
 
     # Making the simulated path as straight as possible (pixel lines).
-    # Example: If we have to move 7 squares by x and 2 by y, we want to update by batches: 7x, 2y => [xxx y xxx y x]
-    # Note: "move_y and (move_x // move_y)" Avoids divide by zero error. Returns 0 when denominator is 0.
+    # Example: If we have to move 7 squares by x and 2 by y, we want to update by batches: 3x, 1y => [xxx y xxx y x]
+    # Note: "move_y and (move_x // move_y)" Avoids divide by zero error. Returns 0 when the denominator is 0.
     update_batch_x = max(1, int(move_y and (move_x // move_y)))
     update_batch_y = max(1, int(move_x and (move_y // move_x)))
 
