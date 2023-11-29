@@ -2,8 +2,6 @@
 
 The Thunder Ball is a command prompt game that puts you in control of a bouncing ball, letting you playfully make it zip around your terminal at high speeds. How delightful! :D
 
-Note: The flickering you observe in the images results from the image recording software ScreenToGif (a tool I highly recommend). In actual practice, the experience will be significantly smoother.
-
 I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. While basking in the warmth of a chimney, sipping hot chocolate, and sharing the moment with my ageing father as we tuned into the news, I dedicated a few hours to creating this little gem. Later, I invested additional time refining the code. Developing a game engine is not rocket science. In fact, it's much simpler than one might think.
 
 ![nice_bounces.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/nice_bounces.gif)
@@ -41,3 +39,7 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 3. Run it
    
 ![Download the fine and write "python ASCII_thunder_ball.py"](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/easy_to_run.gif)
+
+# Acknowledgements
+
+I express my sincere gratitude to [Paul Ami Jeanbourquin](https://www.linkedin.com/in/paul-jeanbourquin-44a65bba/?originalSubdomain=ch) for his insightful suggestion to replace the "clear screen" command with the more efficient approach of resetting the console index to its initial position (0,0). This solution completely eliminates the flickering issue. Thank you, Paul, for your valuable contribution!
