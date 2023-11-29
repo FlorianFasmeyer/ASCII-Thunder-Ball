@@ -34,7 +34,9 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 
 ![download_it.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/download_it.gif)
 
-2. Install pynput and python in your favourite virtual environment: ´pip install pynput python´
+2. Install pynput and python in your favourite virtual environment
+
+![executing the command - pip install pynput](https://raw.githubusercontent.com/FlorianFasmeyer/ASCII-Thunder-Ball/main/images/pip_pynput.gif)
 
 3. Run it
    
