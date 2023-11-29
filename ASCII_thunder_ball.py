@@ -8,7 +8,7 @@ import os
 WIDTH = 77
 HEIGHT = 23
 GRAVITY = 1
-X_FRICTION = 0.02
+X_FRICTION = 0.0001
 Y_FRICTION = 0.02
 DAMPING = 0.00  # When the ball bounces, it looses energy.
 JUMP_STRENGTH = -2
@@ -18,7 +18,7 @@ SNOW = '~'
 GROUND = '#'
 AIR = ' '
 PLAYER = 'O'
-TIME_BETWEEN_FRAMES = 0.01  # Seconds.
+TIME_BETWEEN_FRAMES = 0.05  # Seconds.
 TRAIL_DECAY = 0.1
 TRAIL_SPEED_ICONS =  {
     11:  '.',
@@ -26,6 +26,8 @@ TRAIL_SPEED_ICONS =  {
     24: 'o',
     30: '0',
     float('inf'): '$'}
+
+RESET_CURSOR = f'\033[H'  # When printed, set the cursor to 0,0.
 
 
 # Game states.
@@ -44,6 +46,13 @@ controls = {
     'd': False,  # Right.
     keyboard.Key.esc: False  # Quit game.
 }
+
+# Initialize the command prompt.
+os.system('cls')
+if os.name == 'nt': # Only if we are on Windows
+    from ctypes import windll
+    k = windll.kernel32
+    k.SetConsoleMode(k.GetStdHandle(-11), 7)
 
 
 def main():
@@ -64,7 +73,7 @@ def main():
         player_act(grid)
         move_player(grid)
         # snow(grid)
-        display(grid, clear_screen=True)
+        display(grid)
 
 
 # World and player generation.
@@ -145,18 +154,13 @@ def add_force(x, y):
 
 
 # World update.
-def display(grid, clear_screen=True):
-    if clear_screen:
-        os.system('cls')
-
-    image = ''
-    for line in grid:
-        image += '\n'
-        for char in line:
-            image += char
+def display(grid):
+    lines = (''.join(character) for character in grid)
+    image = '\n'.join(lines)
 
     global vel_x, vel_y
-    print(image,
+    print(RESET_CURSOR,
+	  image,
           f'\n velocity (x: {vel_x: 3.2f}, y: {vel_y: 3.2f})')
 
 
