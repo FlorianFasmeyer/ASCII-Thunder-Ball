@@ -12,7 +12,7 @@ This glitch happens in games where the developer did not intend for the player c
 
 The ASCII Thunderball game engine explores this issue through a naive "simulate everything" approach, where each minimal unit of movement is recorded and tested for collision. I wanted to see the impact of such method on performances.
 
-While creating this game engine, I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. 
+While creating this game engine, I adhered to a self-imposed "dry-chicken" restriction: avoiding the internet and confining my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. I wanted to see how far I could go without IDE and Stackoverflow. It went well and took only two and a half hours. :)
 
 
 # What's in the game?
