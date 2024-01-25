@@ -4,7 +4,7 @@ The Thunder Ball is a command prompt game engine that puts you in control of a b
 
 ![nice_bounces.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/nice_bounces.gif)
 
-This game engine was created in 2022, inspired by the exhaustion of a day spent skiing. Lost in my thoughts, I reminisced of a typical game engine glitch, one encountered in a previous game of mine: [Attack Of The Nullptrs](https://github.com/FlorianFasmeyer/Attack-of-the-nullptrs). Said glitch is common in most game engines and is called "clipping"; it happens when a game object goes so fast that it phases through other objects and the terrain. This happens because fast-moving objects move multiple pixels at a time for every game update (game tick):
+This game engine was created in 2022, inspired by the exhaustion of a day spent skiing. Lost in my thoughts, I reminisced of a typical game engine glitch, one encountered in a previous game of mine: [Attack Of The Nullptrs](https://github.com/FlorianFasmeyer/Attack-of-the-nullptrs). Said glitch is common in most game engines and is called "clipping"; it happens when a game object goes so fast that it phases through other objects and the terrain. This happens because fast-moving objects move multiple pixels at a time for every game update (game tick). See in the below example, the object moving at speed 6 fails to collide with the square:
 
 ![clipping_speed.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/clipping_speed.png)
 
