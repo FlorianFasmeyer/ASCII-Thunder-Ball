@@ -1,21 +1,19 @@
-# ASCII Thunder Ball: Learning How To Create A Game Engine
+# ASCII Thunder Ball: Anti-Clipping at High Speeds in a Game Engine
 
-The Thunder Ball is a command prompt game that puts you in control of a bouncing ball, letting you playfully make it zip around your terminal at high speeds. How delightful! :D
-
-I crafted this game in 2022, inspired by the exhaustion of a day spent skiing. While basking in the warmth of a chimney, sipping hot chocolate, and sharing the moment with my ageing father as we tuned into the news, I dedicated a few hours to creating this little gem. Later, I invested additional time refining the code. Developing a game engine is not rocket science. In fact, it's much simpler than one might think.
+The Thunder Ball is a command prompt game engine that puts you in control of a bouncing ball, letting you playfully make it zip around your terminal at high speeds.
 
 ![nice_bounces.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/nice_bounces.gif)
 
-The Thunder Ball emerged as an unintended outcome of my game engine, built entirely from scratch. I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. This coding venture had two objectives:
+This game engine was created in 2022, inspired by the exhaustion of a day spent skiing. Lost in my thoughts, I reminisced of a typical game engine glitch, one encountered in a previous game of mine: [Attack Of The Nullptrs](https://github.com/FlorianFasmeyer/Attack-of-the-nullptrs). Said glitch is common in most game engines and is called "clipping"; it happens when a game object goes so fast that it phases through other objects and the terrain. This happens because fast-moving objects move multiple pixels at a time for every game update (game tick):
 
-1. To test the challenges of constructing a 2D game engine with collision, 2d physics and basic graphics from *absolutely nothing*
-2. To improve my coding skills and develop those Pythonman fingers! >:D
+![clipping_speed.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/clipping_speed.png)
 
-This engine seamlessly handles high-speed objects, ensuring they never mysteriously phase through the game world. The only limitations on speed arise from the air friction variables. You can remove all friction in code to witness the unstoppable force of the THUNDER BALL!
+This glitch happens in games where the developer did not intend for the player character to go past a certain speed, a speed below which the player character would have a wide enough collision box to detect another object. Speedrunners often use this glitch to phase through walls and escape beyond the boundaries of the game.
 
-Admittedly, it's a modest project, not one to boast about extensively. But darn, I like it!
+The ASCII Thunderball game engine explores this issue through a naive "simulate everything" approach, where each minimal unit of movement is recorded and tested for collision. I wanted to see the impact of such method on performances.
 
-Now, here's where I must confess a deviation from my original rules: I peeked at Stack Overflow to acquaint myself with the pynput module. This module proved invaluable for controlling and monitoring the keyboard, and I did delve into its source code to grasp its intricacies. Exceptions, after all, can be enlightening!
+While creating this game engine, I adhered to a self-imposed restriction of avoiding the internet and confined my coding activities to Microsoft's Code Block. Module downloads were the only exceptions granted. 
+
 
 # What's in the game?
 1. Nice trails that become wider the faster you go.
@@ -27,7 +25,7 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 ![accumulate_speed.gif](https://github.com/FlorianFasmeyer/ASCII-Thunder-Ball/blob/main/images/accumulate_speed.gif)
 
 3. Procedural terrain generation
-4. Snow! You can enable it by uncommenting the 66th line: ´# snow(grid)´ -> ´snow(grid)´
+4. Snow! You can enable it by uncommenting the 66th line: ´# snow(grid)´ (remove the #)
 
 # How to run the game?
 1. Download it
@@ -44,4 +42,4 @@ Now, here's where I must confess a deviation from my original rules: I peeked at
 
 # Acknowledgements
 
-I express my sincere gratitude to [Paul Ami Jeanbourquin](https://www.linkedin.com/in/paul-jeanbourquin-44a65bba/?originalSubdomain=ch) for his insightful suggestion to replace the "clear screen" command with the more efficient approach of resetting the console index to its initial position (0,0). This solution completely eliminates the flickering issue. Thank you, Paul, for your valuable contribution!
+I thank [Paul Ami Jeanbourquin](https://www.linkedin.com/in/paul-jeanbourquin-44a65bba/?originalSubdomain=ch) for his suggestion on a better screen refresh method.
